@@ -1,0 +1,458 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #E3F2FD;
+}
+
+header {
+  width: 100%;
+  height: 90vh;
+  background: url(https://www.freecodecamp.org/news/content/images/size/w2000/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg)
+    no-repeat center center/cover;
+}
+
+header nav {
+  width: 95%;
+  /* border: 1px solid black; */
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav .logo h2 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  letter-spacing: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+header nav h1 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header nav .logo img {
+  width: 100px;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li {
+  list-style-type: none;
+  padding: 3px 0 3px 40px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  transition: 0.3s linear;
+}
+
+header nav ul li a:hover {
+  color: #cdc8c8;
+}
+
+header section {
+  position: relative;
+  width: 80%;
+  /* border: 1px solid black; */
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+header section h1 {
+  color: #000000;
+  letter-spacing: 5px;
+  font-size: 5rem;
+  margin-top: 100px;
+  display: flex;
+  /* border: 1px solid black; */
+  align-items: center;
+  justify-content: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 1000px;
+  text-transform: uppercase;
+}
+
+header section h2 {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  position: absolute;
+  top: 200px;
+}
+
+.container1 {
+  position: relative;
+  margin-bottom: 90px;
+}
+
+.container1 .card {
+  width: 85%;
+  height: 600px;
+  margin: auto;
+  /* border: 1px solid black; */
+  background: url(https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.container1 .card .content {
+  background-color: #f0eeee;
+  position: absolute;
+  top: 0;
+  left: 250px;
+  width: 400px;
+  padding: 25px;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.container1 .card .content .orangebar {
+  width: 100px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: orange;
+  margin: 10px 0 20px 0;
+}
+
+.container2 {
+  width: 85%;
+  height: 600px;
+  margin: auto;
+  margin-bottom: 100px;
+  /* border: 1px solid black; */
+}
+
+.container2 .services h1 {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 8px solid orange;
+  border-radius: 2px;
+  margin-bottom: 40px;
+}
+
+.container2 .serviceCard {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container2 .serviceCard .features {
+  width: 350px;
+  height: 450px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.container2 .serviceCard .features img {
+  width: 350px;
+  height: 280px;
+  border-radius: 10px;
+  margin: 15px 0 15px 0;
+}
+
+.container2 .serviceCard .features p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+
+
+
+.container {
+  /* max-width: 1200px; */
+  width: 80%;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.slider-wrapper {
+  position: relative;
+}
+.slider-wrapper .slide-button {
+  position: absolute;
+  top: 50%;
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+  z-index: 5;
+  color: #fff;
+  display: flex;
+  cursor: pointer;
+  font-size: 2.2rem;
+  background: #000;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-wrapper .slide-button:hover {
+  background: #404040;
+}
+
+.slider-wrapper .slide-button#prev-slide {
+  left: -25px;
+  display: none;
+}
+
+.slider-wrapper .slide-button#next-slide {
+  right: -25px;
+}
+
+.slider-wrapper .image-list {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 1rem;
+  font-size: 0;
+  list-style: none;
+  margin-bottom: 30px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.slider-wrapper .image-list::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-wrapper .image-list .image-item {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.container .slider-scrollbar {
+  height: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.slider-scrollbar .scrollbar-track {
+  background: #ccc;
+  width: 100%;
+  height: 2px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  position: relative;
+}
+
+.slider-scrollbar:hover .scrollbar-track {
+  height: 4px;
+}
+
+.slider-scrollbar .scrollbar-thumb {
+  position: absolute;
+  background: #000;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  height: 100%;
+  cursor: grab;
+  border-radius: inherit;
+}
+
+.slider-scrollbar .scrollbar-thumb:active {
+  cursor: grabbing;
+  height: 8px;
+  top: -2px;
+}
+
+.slider-scrollbar .scrollbar-thumb::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -10px;
+  bottom: -10px;
+}
+
+
+
+
+.plus-edit {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.plus-edit button {
+  border-radius: 50%;
+  padding: 0;
+  border: none;
+}
+
+.plus-edit button:hover {
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  background-color: #bfbcbc;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+}
+
+footer .left {
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer .left .finalbrand {
+  list-style: none;
+}
+
+footer .left .finalbrand a {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+footer .left .finalbrand a  h1 {
+  font-family: "Pacifico", cursive;
+  letter-spacing: 3px;
+}
+
+footer .middle1 {
+  margin-left: 100px;
+}
+
+footer .middle1 ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+footer .middle1 ul li a {
+  text-decoration: none;
+  color: grey;
+}
+
+footer .middle1 ul li a:hover {
+  color: black;
+  transition: 0.3s ease;
+}
+
+footer .middle2 {
+  margin-left: 100px;
+}
+
+footer .middle2 ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+footer .middle2 ul li a {
+  text-decoration: none;
+  color: grey;
+}
+
+footer .middle2 ul li a:hover {
+  color: black;
+  transition: 0.3s ease;
+}
+
+footer .right {
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+  margin-left: 500px;
+}
+
+footer .right ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+footer .right ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+footer .right .contact a {
+  list-style: none;
+  color: black;
+}
+  
+footer .right .contact a i {
+  padding: 5px 10px 0 0;
+}
+
+.edit-button {
+  display: flex;
+  align-items: center;
+}
+  
+.edit-button a button{
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #E3F2FD;
+  color: #000;
+  font-weight: 600;
+}
+
+.edit-button a button:hover {
+  cursor: pointer;
+}
+
+.edit-button a button img {
+  width: 14px;
+  margin-right: 5px;
+}
+
+/* Styles for mobile and tablets */
+@media only screen and (max-width: 1023px) {
+  .slider-wrapper .slide-button {
+    display: none !important;
+  }
+  .slider-wrapper .image-list {
+    gap: 10px;
+    margin-bottom: 15px;
+    scroll-snap-type: x mandatory;
+  }
+  .slider-wrapper .image-list .image-item {
+    width: 280px;
+    height: 380px;
+  }
+  .slider-scrollbar .scrollbar-thumb {
+    width: 20%;
+  }
+}
