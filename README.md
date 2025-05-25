@@ -25,7 +25,7 @@ Responsive design using Flexbox and Media Queries
 Font & icon libraries: Font Awesome, Boxicons, Google Fonts
 
 🔗 Live Preview
-Add link here if deployed
+http://127.0.0.1:3000/index.html
 
 📂 File Structure
 index.html – Homepage with features & slideshow
